@@ -1,4 +1,4 @@
-/* pipeline {
+pipeline {
 agent any
   stages{
     stage("checkout") {
@@ -10,6 +10,6 @@ agent any
     stage("code anylasis") {
     }
   }
-} */
+} 
 
-hi
+
