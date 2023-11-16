@@ -7,5 +7,7 @@ agent any
     stage("buid") {
       mvn clean
     }
+    stage("code anylasis") {
+    }
   }
 }
