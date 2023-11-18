@@ -8,7 +8,7 @@ agent any
     }
       stage ("build") {
        steps {
-         mvn compile
+         mvn test
        }
       }
     }
