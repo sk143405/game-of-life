@@ -11,6 +11,11 @@ agent any
          mvn compile
        }
       }
+    stage ("code analysis") {
+      steps {
+        sonar analysis
+      }
+    }
     }
   }
  
