@@ -13,7 +13,10 @@ agent any
       }
     stage ("code analysis") {
       steps {
-        sonar analysis
+        mvn sonar:sonar \
+       -Dsonar.projectKey=test \
+       -Dsonar.host.url=http://localhost:9000 \
+       -Dsonar.login=ef0b0a0cf752f3555e69279070e99c9dc951becb
       }
     }
     }
