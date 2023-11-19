@@ -12,17 +12,6 @@ agent any
        }
       }
     
-    stage ("code analysis") {
-      steps {
-      
-      }
-    }
-    
-    stage ("artifact") {
-      steps {
-      
-      }
-    }
     }
   }
  
