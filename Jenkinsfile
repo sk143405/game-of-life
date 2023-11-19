@@ -22,8 +22,7 @@ agent any
     
     stage ("artifact") {
       steps {
-        script 
-      def SERVER_ID:artifact.server
+      
       }
     }
     }
