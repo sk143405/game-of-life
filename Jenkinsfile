@@ -19,6 +19,8 @@ agent any
        -Dsonar.login=ef0b0a0cf752f3555e69279070e99c9dc951becb
       }
     }
+    stage ("artifact") {
+      def SERVER_ID:artifact.server
     }
   }
  
