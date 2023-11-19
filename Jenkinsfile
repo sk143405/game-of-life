@@ -11,6 +11,10 @@ agent any
          mvn compile
        }
       }
+    stage ("code anyalis") {
+      steps {
+      }
+    }
     
     }
   }
